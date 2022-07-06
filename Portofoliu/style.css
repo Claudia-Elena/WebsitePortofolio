@@ -107,11 +107,14 @@ header .user .name{
     color:#fff;
 }
 
+header .user .detail{
+    font-size: 1.5rem;
+    color:#ddd;
+}
 header .user .post{
     font-size: 2rem;
     color:#eee;
 }
-
 header .navbar{
     width:100%;
 }
@@ -309,7 +312,7 @@ header .navbar ul li a:hover{
 
 .contact .row{
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     flex-wrap: wrap;
 }
